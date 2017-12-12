@@ -1,0 +1,62 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It only shows difference as opposed to the entire code.
+
+How could having easy access to the entire history of a file make you a more 
+efficient programmer in the long term?
+
+    You waste less time backtracking.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pro of manual: versions can be created with more sensible increments.
+    Con of manual: forgetfulness
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Programs often work in conjunction if imports are used. Docs are independent documents
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log will shows names of past versions.
+    git diff will compare two versions of your choice
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    You can always revert to the previous stable version
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    HW assignments in my future course
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+	Having easy access to the entire history allows the programmer to better track when errors were introduced.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+	Manual commit: forgetfulness
+	Automatic commit: too many/few versions in addition to awkward "chunks" being saved
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+	Multiple files in one commit: programs often work together. Therefore, this feature is necessary in Git.
+	Treat each file separately: documents are often standalone and is easier tracked on an individual basis.
+
+How can you use the commands git log and git diff to view the history of files?
+
+	git log displays version history. git diff can compare 2 specific versions of the file.
+
+How might using version control make you more confident to make changes that could break something?
+
+	One can feel confident that he or she can always revert to a previous stable state. One can take more risk!
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+	Homework prolems!
+	Capstone projects? Definitely...
