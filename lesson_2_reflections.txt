@@ -7,14 +7,20 @@ How is the staging area different from the working directory and the repository?
 	bundle all files within the staging area when the user is ready. 
 
 How can you use the staging area to make sure you have one commit per logical change?
+	One can check git status to make sure only one file exists within the staging area.
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	Branches will allow the user to experiment without tampering with
+	the master file. i.e. testing a new language or setting
 
 How do the diagrams help you visualize the branch structure?
+	The diagram helps the user better understand where various branches
+	deviate from the master. It also helps the user understand if a commit would be traceable via log.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	The commits from both branches will be merged into a new master list. The commits from both will show under log based on when the changes were made but adjacent commits may not be a parent file. Use git show.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+	Git's automatic merge cannot decide which file or parts of a file to keep in the event that two users modify the same file(s). However, automatic merging streamlines the process when only one user has made modifications to the specific file(s).
