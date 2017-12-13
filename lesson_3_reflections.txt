@@ -3,3 +3,8 @@ When would you want to use a remote repository rather than keeping all your work
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 	Remote repository can be shared with others. Manual pull would allow you to avoid situations where you happen to be the only person left who has not pulled from the remote repository when a critical file has been removed.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+	Fork: creates a clone of others' repository while giving them the proper credit since it can be traced back to the original owner.
+	Clone: allows for an isolated copy of a repository for one to modify without impacting the original
+	Branches: allows for one to test a small new feature that deviates from the master with the option to one day be merged back to the master or discarded
